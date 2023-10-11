@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav img {
+    height: 90px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(19, 109, 178);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 1.6rem;
+}
+
+#element{
+    color: white;
+}
+
+.left {
+    color: white;
+    font-size: 2rem;
+}
+
+.right {
+    font-size: 1.2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+
+}
+
+.firstSection>div {
+    width: 38%;
+}
+
+.leftSection {
+    font-size: 2.7rem;
+    color: white;
+
+}
+
+.rightSection img {
+    width: 85%;
+
+}
+
+.purple {
+    color: rgb(122, 14, 223);
+}
+
+.about {
+    height: 50vh;
+    width: 100vw;
+    padding: 100px;
+}
+
+.about h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    width: 1400px;
+}
+
+.about .description {
+    display: flex;
+    align-items: start;
+    width: 1414px;
+}
+
+.about .description .line {
+    height: 2.5px;
+    width: 400px;
+    background-color: #fec86a;
+    margin-right: 32px;
+}
+
+.about .description p {
+    color: #fbfbfb;
+    font-size: 20px;
+
+}
+
+.about .description p span {
+    color: #fec86a;
+}
+
+body {
+    background-color: rgba(21, 36, 121, 0.997);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.inputFile{
+    background-color: rgb(212, 212, 233);
+    margin-left: 650px;
+    margin-right: 560px;
+    margin-bottom: 20px;
+    
+}
+
+/* Style the custom button container */
+.file-upload {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 688px;
+}
+
+/* Style the button text */
+.file-upload-label {
+    font-weight: 500;
+}
+
+/* Style the file name display */
+.file-name {
+    margin-left: 10px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* When a file is selected, style the container */
+input[type="file"]:not(:empty)+.file-upload {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+footer {
+    background-color: rgb(19, 109, 178);
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    margin: 23px 122px;
+    padding: 20px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: white;
+    font: 1em sans-serif;
+}
+
+h2{
+    color: rgb(239, 38, 38);
+}
